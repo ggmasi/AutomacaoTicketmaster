@@ -9,8 +9,8 @@ import winsound
 import os
 
 # --- CONFIGURAÇÕES ---
-TOKEN_TELEGRAM = "8309215528:AAEXv8N0cSaAP0cao2uFT0s5j0CygDyiSRM"
-CHAT_ID = "7758229260"
+TOKEN_TELEGRAM = "TOKEN"
+CHAT_ID = "ID"
 URLS = [
     "https://www.ticketmaster.com.br/event/bad-bunny-venda-geral-21-02",
     "https://www.ticketmaster.com.br/event/bad-bunny-venda-geral"
@@ -106,4 +106,5 @@ def verificar_ingressos():
         driver.quit()
 
 if __name__ == "__main__":
+
     verificar_ingressos()
